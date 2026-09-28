@@ -1,0 +1,11 @@
+{
+  "id": 5501234567002,
+  "name": "#1002",
+  "email": "orders@blueocean.example",
+  "created_at": "2026-09-21T09:00:00+03:00",
+  "currency": "ILS",
+  "customer": { "id": 7002, "email": "orders@blueocean.example" },
+  "line_items": [
+    { "id": 4, "sku": "SKU-200", "title": "Gadget", "quantity": 1, "price": "120.00" }
+  ]
+}

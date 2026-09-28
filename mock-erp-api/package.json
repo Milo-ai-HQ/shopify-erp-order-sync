@@ -1,0 +1,8 @@
+{
+  "name": "mock-erp-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "In-memory mock of the Priority, NetSuite, Business Central and Odoo APIs",
+  "scripts": { "start": "node server.js" }
+}

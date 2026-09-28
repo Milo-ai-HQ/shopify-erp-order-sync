@@ -1,0 +1,13 @@
+{
+  "name": "shopify-sync",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Shopify order webhook -> ERP sales order, with adapters for Priority, NetSuite, Business Central and Odoo",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node src/server.js",
+    "sync": "node src/cli.js",
+    "test": "node --test test/*.test.js"
+  }
+}
